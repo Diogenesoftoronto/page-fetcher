@@ -1,0 +1,22 @@
+{
+  "name": "page-fetcher",
+  "version": "1.0.0",
+  "description": "",
+  "main": "fetcher.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Diogenesoftoronto/page-fetcher.git"
+  },
+  "author": "Keith",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Diogenesoftoronto/page-fetcher/issues"
+  },
+  "homepage": "https://github.com/Diogenesoftoronto/page-fetcher#readme",
+  "devDependencies": {
+    "got": "^11.8.3"
+  }
+}
