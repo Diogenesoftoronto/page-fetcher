@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Diogenesoftoronto/page-fetcher#readme",
   "devDependencies": {
-    "got": "^11.8.3"
+    "got": "^11.8.3",
+    "request": "^2.88.2"
   }
 }
