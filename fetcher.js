@@ -6,11 +6,12 @@ const args = process.argv.slice(2);
 const url = arg[1] 
 const filePath = arg[2]
 console.log(`Downloading file from ${url} to ${filePath}`)
-got.get(url, {responseType: 'json'}
-  .then(res => {
-
-})
-)
+try {
+	const {body} = await got(url);
+	content = body;
+} catch (error) {
+	console.error(error);
+}
 const net = require('net');
 const conn = net.createConnection({ 
   host: 'example.edu',
